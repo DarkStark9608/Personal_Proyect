@@ -1,0 +1,38 @@
+<script>    
+const item= [1,2,3,4,5];
+
+for (let i=0; i<item.length; i++){
+console.log(item[i]);
+}
+
+item.forEach(item => {
+    console.log(item)
+});
+
+
+for(let items of item){
+console.log(items);
+}
+
+
+let i=0;
+let ite=item[i];
+
+while( i<item.length){
+ite=item[i];
+console.log(ite);
+i++;
+}
+
+
+function iterate(i){
+ if (i <= item.length)
+ return;
+ console.log(item[i]);
+}
+iterate(0);
+
+
+
+
+</script>
